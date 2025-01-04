@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mx omega technologies.reactimagemapper.ReactImageMapper" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>React Image Mapper</name>
+    <description>To Highlight image areas</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="image" type="image" required="true">
+                <caption>Image</caption>
+                <description>Select image to be viewed with image maps </description>
+            </property>
+             <property key="Data" type="attribute" allowNonPersistableEntities="true">
+                <caption>Map Data</caption>
+                    <description></description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
